@@ -1,0 +1,250 @@
+2020-09-09 17:13:01,882 gpu device = 4
+2020-09-09 17:13:01,882 args = Namespace(arch='Cri2_ModelNet_Atom_Best', auxiliary=False, auxiliary_weight=0.4, batch_size=24, cutout=False, data='../../../sgas/data/', data_augment=True, drop_path_prob=0.2, dropout=0.5, emb_dims=1024, epochs=400, gpu=4, grad_clip=5, hyper_search=False, in_channels=3, init_channels=128, k=9, learning_rate=0.001, model_path='saved_models', momentum=0.9, num_cells=3, num_points=1024, phase='train', report_freq=20, save='log/Cri2_modelnet40_best_l3_c128_k9-20200909-171301-48e45f23-6aae-4724-9a58-fa7dfb2b1188', seed=4, use_sgd=True, weight_decay=0.0001)
+2020-09-09 17:13:18,952 n_classes: 40
+2020-09-09 17:13:33,531 param size = 3.902632MB
+2020-09-09 17:13:33,537 phase is train
+2020-09-09 17:13:33,537 epoch 0 lr 1.000000e-01
+2020-09-09 17:53:22,321 train_overall_acc 0.369817	 train_class_acc 0.227521	 test_overall_acc 0.503241	 test_class_acc 0.391570	 best_test_overall_acc 0.503241	 test_class_acc_when_best 0.391570
+2020-09-09 17:53:22,387 epoch 1 lr 9.999695e-02
+2020-09-09 18:27:40,840 train_overall_acc 0.510671	 train_class_acc 0.351887	 test_overall_acc 0.621151	 test_class_acc 0.496860	 best_test_overall_acc 0.621151	 test_class_acc_when_best 0.496860
+2020-09-09 18:27:40,877 epoch 2 lr 9.998931e-02
+2020-09-09 18:58:07,912 train_overall_acc 0.545122	 train_class_acc 0.393017	 test_overall_acc 0.659643	 test_class_acc 0.518907	 best_test_overall_acc 0.659643	 test_class_acc_when_best 0.518907
+2020-09-09 18:58:07,940 epoch 3 lr 9.997863e-02
+2020-09-09 19:41:20,729 train_overall_acc 0.569715	 train_class_acc 0.420404	 test_overall_acc 0.717180	 test_class_acc 0.570390	 best_test_overall_acc 0.717180	 test_class_acc_when_best 0.570390
+2020-09-09 19:41:20,762 epoch 4 lr 9.996489e-02
+2020-09-09 20:26:51,107 train_overall_acc 0.590447	 train_class_acc 0.445726	 test_overall_acc 0.650324	 test_class_acc 0.548640	 best_test_overall_acc 0.717180	 test_class_acc_when_best 0.570390
+2020-09-09 20:26:51,158 epoch 5 lr 9.994810e-02
+2020-09-09 21:12:25,469 train_overall_acc 0.595224	 train_class_acc 0.455943	 test_overall_acc 0.673015	 test_class_acc 0.573779	 best_test_overall_acc 0.717180	 test_class_acc_when_best 0.570390
+2020-09-09 21:12:25,513 epoch 6 lr 9.992826e-02
+2020-09-09 21:49:39,817 train_overall_acc 0.603455	 train_class_acc 0.456616	 test_overall_acc 0.707455	 test_class_acc 0.602680	 best_test_overall_acc 0.717180	 test_class_acc_when_best 0.570390
+2020-09-09 21:49:39,856 epoch 7 lr 9.990538e-02
+2020-09-09 22:26:25,779 train_overall_acc 0.619715	 train_class_acc 0.477573	 test_overall_acc 0.680308	 test_class_acc 0.568279	 best_test_overall_acc 0.717180	 test_class_acc_when_best 0.570390
+2020-09-09 22:26:25,811 epoch 8 lr 9.987944e-02
+2020-09-09 23:10:41,519 train_overall_acc 0.629167	 train_class_acc 0.492140	 test_overall_acc 0.681929	 test_class_acc 0.550105	 best_test_overall_acc 0.717180	 test_class_acc_when_best 0.570390
+2020-09-09 23:10:41,557 epoch 9 lr 9.985046e-02
+2020-09-09 23:56:03,900 train_overall_acc 0.624797	 train_class_acc 0.484289	 test_overall_acc 0.738250	 test_class_acc 0.626233	 best_test_overall_acc 0.738250	 test_class_acc_when_best 0.626233
+2020-09-09 23:56:03,937 epoch 10 lr 9.981844e-02
+2020-09-10 00:40:24,453 train_overall_acc 0.634654	 train_class_acc 0.500607	 test_overall_acc 0.701783	 test_class_acc 0.589302	 best_test_overall_acc 0.738250	 test_class_acc_when_best 0.626233
+2020-09-10 00:40:24,498 epoch 11 lr 9.978337e-02
+2020-09-10 01:19:56,274 train_overall_acc 0.633638	 train_class_acc 0.493365	 test_overall_acc 0.761750	 test_class_acc 0.655029	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 01:19:56,300 epoch 12 lr 9.974526e-02
+2020-09-10 01:48:29,479 train_overall_acc 0.639837	 train_class_acc 0.504489	 test_overall_acc 0.739465	 test_class_acc 0.636645	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 01:48:29,508 epoch 13 lr 9.970412e-02
+2020-09-10 02:26:11,625 train_overall_acc 0.649492	 train_class_acc 0.512212	 test_overall_acc 0.720421	 test_class_acc 0.609901	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 02:26:11,678 epoch 14 lr 9.965994e-02
+2020-09-10 03:01:41,756 train_overall_acc 0.645935	 train_class_acc 0.510860	 test_overall_acc 0.717585	 test_class_acc 0.595453	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 03:01:41,785 epoch 15 lr 9.961273e-02
+2020-09-10 03:41:56,173 train_overall_acc 0.646138	 train_class_acc 0.516550	 test_overall_acc 0.730146	 test_class_acc 0.623483	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 03:41:56,200 epoch 16 lr 9.956249e-02
+2020-09-10 04:22:08,677 train_overall_acc 0.655183	 train_class_acc 0.525134	 test_overall_acc 0.716370	 test_class_acc 0.644343	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 04:22:08,702 epoch 17 lr 9.950922e-02
+2020-09-10 05:02:35,355 train_overall_acc 0.659045	 train_class_acc 0.529186	 test_overall_acc 0.754862	 test_class_acc 0.656180	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 05:02:35,386 epoch 18 lr 9.945293e-02
+2020-09-10 05:42:59,023 train_overall_acc 0.657114	 train_class_acc 0.528101	 test_overall_acc 0.722447	 test_class_acc 0.637140	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 05:42:59,056 epoch 19 lr 9.939362e-02
+2020-09-10 06:22:45,769 train_overall_acc 0.664329	 train_class_acc 0.533126	 test_overall_acc 0.719611	 test_class_acc 0.604419	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 06:22:45,797 epoch 20 lr 9.933130e-02
+2020-09-10 07:02:37,996 train_overall_acc 0.656504	 train_class_acc 0.517764	 test_overall_acc 0.741086	 test_class_acc 0.658058	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 07:02:38,025 epoch 21 lr 9.926596e-02
+2020-09-10 07:42:37,445 train_overall_acc 0.671545	 train_class_acc 0.544697	 test_overall_acc 0.717990	 test_class_acc 0.616326	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 07:42:37,476 epoch 22 lr 9.919762e-02
+2020-09-10 08:23:03,161 train_overall_acc 0.675000	 train_class_acc 0.549685	 test_overall_acc 0.724473	 test_class_acc 0.666180	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 08:23:03,191 epoch 23 lr 9.912627e-02
+2020-09-10 09:03:28,728 train_overall_acc 0.671037	 train_class_acc 0.544264	 test_overall_acc 0.756888	 test_class_acc 0.674547	 best_test_overall_acc 0.761750	 test_class_acc_when_best 0.655029
+2020-09-10 09:03:28,757 epoch 24 lr 9.905192e-02
+2020-09-10 09:26:03,678 train_overall_acc 0.677642	 train_class_acc 0.550996	 test_overall_acc 0.770259	 test_class_acc 0.656750	 best_test_overall_acc 0.770259	 test_class_acc_when_best 0.656750
+2020-09-10 09:26:03,704 epoch 25 lr 9.897458e-02
+2020-09-10 09:42:24,245 train_overall_acc 0.666768	 train_class_acc 0.538859	 test_overall_acc 0.734603	 test_class_acc 0.649017	 best_test_overall_acc 0.770259	 test_class_acc_when_best 0.656750
+2020-09-10 09:42:24,275 epoch 26 lr 9.889425e-02
+2020-09-10 09:53:20,644 train_overall_acc 0.668394	 train_class_acc 0.542431	 test_overall_acc 0.726904	 test_class_acc 0.598669	 best_test_overall_acc 0.770259	 test_class_acc_when_best 0.656750
+2020-09-10 09:53:20,676 epoch 27 lr 9.881093e-02
+2020-09-10 10:04:16,204 train_overall_acc 0.680285	 train_class_acc 0.557960	 test_overall_acc 0.750405	 test_class_acc 0.628512	 best_test_overall_acc 0.770259	 test_class_acc_when_best 0.656750
+2020-09-10 10:04:16,237 epoch 28 lr 9.872463e-02
+2020-09-10 10:15:40,712 train_overall_acc 0.670224	 train_class_acc 0.545726	 test_overall_acc 0.779173	 test_class_acc 0.674878	 best_test_overall_acc 0.779173	 test_class_acc_when_best 0.674878
+2020-09-10 10:15:40,739 epoch 29 lr 9.863536e-02
+2020-09-10 10:27:05,675 train_overall_acc 0.671443	 train_class_acc 0.547465	 test_overall_acc 0.764587	 test_class_acc 0.662895	 best_test_overall_acc 0.779173	 test_class_acc_when_best 0.674878
+2020-09-10 10:27:05,705 epoch 30 lr 9.854312e-02
+2020-09-10 10:38:27,017 train_overall_acc 0.684553	 train_class_acc 0.559085	 test_overall_acc 0.755673	 test_class_acc 0.643738	 best_test_overall_acc 0.779173	 test_class_acc_when_best 0.674878
+2020-09-10 10:38:27,048 epoch 31 lr 9.844792e-02
+2020-09-10 10:49:49,496 train_overall_acc 0.674492	 train_class_acc 0.550730	 test_overall_acc 0.789708	 test_class_acc 0.692622	 best_test_overall_acc 0.789708	 test_class_acc_when_best 0.692622
+2020-09-10 10:49:49,525 epoch 32 lr 9.834976e-02
+2020-09-10 11:01:13,933 train_overall_acc 0.684045	 train_class_acc 0.555398	 test_overall_acc 0.803485	 test_class_acc 0.701953	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 11:01:13,963 epoch 33 lr 9.824864e-02
+2020-09-10 11:12:42,318 train_overall_acc 0.679370	 train_class_acc 0.550043	 test_overall_acc 0.778363	 test_class_acc 0.688919	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 11:12:42,353 epoch 34 lr 9.814458e-02
+2020-09-10 11:24:06,720 train_overall_acc 0.689024	 train_class_acc 0.566800	 test_overall_acc 0.735818	 test_class_acc 0.642070	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 11:24:06,754 epoch 35 lr 9.803759e-02
+2020-09-10 11:35:37,009 train_overall_acc 0.681301	 train_class_acc 0.556292	 test_overall_acc 0.792950	 test_class_acc 0.695802	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 11:35:37,040 epoch 36 lr 9.792766e-02
+2020-09-10 11:47:03,845 train_overall_acc 0.684451	 train_class_acc 0.558405	 test_overall_acc 0.758509	 test_class_acc 0.660837	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 11:47:03,876 epoch 37 lr 9.781480e-02
+2020-09-10 11:58:33,142 train_overall_acc 0.695528	 train_class_acc 0.577180	 test_overall_acc 0.773501	 test_class_acc 0.678401	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 11:58:33,172 epoch 38 lr 9.769903e-02
+2020-09-10 12:10:13,920 train_overall_acc 0.685874	 train_class_acc 0.563814	 test_overall_acc 0.734198	 test_class_acc 0.663320	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 12:10:13,953 epoch 39 lr 9.758035e-02
+2020-09-10 12:22:19,093 train_overall_acc 0.692988	 train_class_acc 0.575672	 test_overall_acc 0.761750	 test_class_acc 0.657203	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 12:22:19,126 epoch 40 lr 9.745876e-02
+2020-09-10 12:33:46,124 train_overall_acc 0.694715	 train_class_acc 0.571671	 test_overall_acc 0.743922	 test_class_acc 0.637233	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 12:33:46,154 epoch 41 lr 9.733427e-02
+2020-09-10 12:45:14,892 train_overall_acc 0.693902	 train_class_acc 0.574944	 test_overall_acc 0.788898	 test_class_acc 0.696593	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 12:45:14,917 epoch 42 lr 9.720690e-02
+2020-09-10 12:56:06,305 train_overall_acc 0.694512	 train_class_acc 0.573421	 test_overall_acc 0.780389	 test_class_acc 0.675919	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 12:56:06,335 epoch 43 lr 9.707665e-02
+2020-09-10 13:06:57,676 train_overall_acc 0.692683	 train_class_acc 0.574543	 test_overall_acc 0.746353	 test_class_acc 0.657517	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 13:06:57,704 epoch 44 lr 9.694352e-02
+2020-09-10 13:18:16,678 train_overall_acc 0.695833	 train_class_acc 0.575109	 test_overall_acc 0.799433	 test_class_acc 0.688860	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 13:18:16,720 epoch 45 lr 9.680753e-02
+2020-09-10 13:29:18,880 train_overall_acc 0.684654	 train_class_acc 0.566137	 test_overall_acc 0.795381	 test_class_acc 0.702756	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 13:29:18,912 epoch 46 lr 9.666868e-02
+2020-09-10 13:51:00,814 train_overall_acc 0.703150	 train_class_acc 0.586207	 test_overall_acc 0.797812	 test_class_acc 0.703884	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 13:51:00,843 epoch 47 lr 9.652698e-02
+2020-09-10 14:20:34,931 train_overall_acc 0.700102	 train_class_acc 0.580105	 test_overall_acc 0.775932	 test_class_acc 0.675297	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 14:20:34,968 epoch 48 lr 9.638245e-02
+2020-09-10 14:50:35,970 train_overall_acc 0.706199	 train_class_acc 0.593155	 test_overall_acc 0.794571	 test_class_acc 0.694174	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 14:50:36,000 epoch 49 lr 9.623509e-02
+2020-09-10 15:21:51,931 train_overall_acc 0.692073	 train_class_acc 0.577439	 test_overall_acc 0.786467	 test_class_acc 0.688017	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 15:21:51,965 epoch 50 lr 9.608490e-02
+2020-09-10 15:58:47,196 train_overall_acc 0.696951	 train_class_acc 0.582855	 test_overall_acc 0.754862	 test_class_acc 0.672488	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 15:58:47,225 epoch 51 lr 9.593190e-02
+2020-09-10 16:23:00,223 train_overall_acc 0.691260	 train_class_acc 0.572513	 test_overall_acc 0.772690	 test_class_acc 0.690174	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 16:23:00,251 epoch 52 lr 9.577610e-02
+2020-09-10 16:39:52,479 train_overall_acc 0.695833	 train_class_acc 0.582198	 test_overall_acc 0.743112	 test_class_acc 0.668686	 best_test_overall_acc 0.803485	 test_class_acc_when_best 0.701953
+2020-09-10 16:39:52,509 epoch 53 lr 9.561751e-02
+2020-09-10 17:05:32,818 train_overall_acc 0.695630	 train_class_acc 0.581087	 test_overall_acc 0.808752	 test_class_acc 0.699477	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 17:05:32,845 epoch 54 lr 9.545614e-02
+2020-09-10 17:32:56,326 train_overall_acc 0.700000	 train_class_acc 0.582222	 test_overall_acc 0.779579	 test_class_acc 0.669907	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 17:32:56,355 epoch 55 lr 9.529199e-02
+2020-09-10 18:09:02,195 train_overall_acc 0.699492	 train_class_acc 0.584473	 test_overall_acc 0.751621	 test_class_acc 0.641773	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 18:09:02,239 epoch 56 lr 9.512508e-02
+2020-09-10 18:50:49,704 train_overall_acc 0.695122	 train_class_acc 0.576459	 test_overall_acc 0.792545	 test_class_acc 0.699494	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 18:50:49,733 epoch 57 lr 9.495541e-02
+2020-09-10 19:32:19,547 train_overall_acc 0.698476	 train_class_acc 0.579841	 test_overall_acc 0.775527	 test_class_acc 0.702250	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 19:32:19,587 epoch 58 lr 9.478301e-02
+2020-09-10 20:01:39,380 train_overall_acc 0.700508	 train_class_acc 0.577235	 test_overall_acc 0.773501	 test_class_acc 0.710785	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 20:01:39,409 epoch 59 lr 9.460787e-02
+2020-09-10 20:35:22,398 train_overall_acc 0.701931	 train_class_acc 0.587051	 test_overall_acc 0.775527	 test_class_acc 0.674395	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 20:35:22,454 epoch 60 lr 9.443001e-02
+2020-09-10 21:24:10,103 train_overall_acc 0.702541	 train_class_acc 0.586127	 test_overall_acc 0.798217	 test_class_acc 0.693808	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 21:24:10,145 epoch 61 lr 9.424945e-02
+2020-09-10 22:18:13,044 train_overall_acc 0.698171	 train_class_acc 0.580936	 test_overall_acc 0.801053	 test_class_acc 0.706971	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 22:18:13,083 epoch 62 lr 9.406618e-02
+2020-09-10 23:06:31,891 train_overall_acc 0.701931	 train_class_acc 0.586142	 test_overall_acc 0.762561	 test_class_acc 0.650314	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 23:06:31,931 epoch 63 lr 9.388023e-02
+2020-09-10 23:58:50,351 train_overall_acc 0.700813	 train_class_acc 0.579135	 test_overall_acc 0.742301	 test_class_acc 0.652017	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-10 23:58:50,386 epoch 64 lr 9.369160e-02
+2020-09-11 00:50:37,059 train_overall_acc 0.706606	 train_class_acc 0.589387	 test_overall_acc 0.804700	 test_class_acc 0.688093	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 00:50:37,098 epoch 65 lr 9.350031e-02
+2020-09-11 01:36:48,061 train_overall_acc 0.702846	 train_class_acc 0.580646	 test_overall_acc 0.795786	 test_class_acc 0.727291	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 01:36:48,098 epoch 66 lr 9.330636e-02
+2020-09-11 02:22:45,794 train_overall_acc 0.712297	 train_class_acc 0.593819	 test_overall_acc 0.792950	 test_class_acc 0.694855	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 02:22:45,831 epoch 67 lr 9.310978e-02
+2020-09-11 03:09:58,964 train_overall_acc 0.703049	 train_class_acc 0.586099	 test_overall_acc 0.785656	 test_class_acc 0.725273	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 03:09:59,008 epoch 68 lr 9.291056e-02
+2020-09-11 03:49:37,881 train_overall_acc 0.702642	 train_class_acc 0.585373	 test_overall_acc 0.793760	 test_class_acc 0.722686	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 03:49:37,908 epoch 69 lr 9.270873e-02
+2020-09-11 04:18:53,217 train_overall_acc 0.703760	 train_class_acc 0.589781	 test_overall_acc 0.798622	 test_class_acc 0.695006	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 04:18:53,247 epoch 70 lr 9.250430e-02
+2020-09-11 04:52:17,205 train_overall_acc 0.704980	 train_class_acc 0.586725	 test_overall_acc 0.764182	 test_class_acc 0.661360	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 04:52:17,244 epoch 71 lr 9.229728e-02
+2020-09-11 05:28:26,810 train_overall_acc 0.708740	 train_class_acc 0.588515	 test_overall_acc 0.793760	 test_class_acc 0.704773	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 05:28:26,849 epoch 72 lr 9.208768e-02
+2020-09-11 06:06:31,198 train_overall_acc 0.715549	 train_class_acc 0.596250	 test_overall_acc 0.742707	 test_class_acc 0.631826	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 06:06:31,234 epoch 73 lr 9.187551e-02
+2020-09-11 06:40:49,269 train_overall_acc 0.712093	 train_class_acc 0.597154	 test_overall_acc 0.803485	 test_class_acc 0.734413	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 06:40:49,298 epoch 74 lr 9.166079e-02
+2020-09-11 07:17:44,812 train_overall_acc 0.713313	 train_class_acc 0.598013	 test_overall_acc 0.792545	 test_class_acc 0.704791	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 07:17:44,854 epoch 75 lr 9.144353e-02
+2020-09-11 07:56:49,812 train_overall_acc 0.712602	 train_class_acc 0.599080	 test_overall_acc 0.797407	 test_class_acc 0.723942	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 07:56:49,842 epoch 76 lr 9.122375e-02
+2020-09-11 08:32:38,980 train_overall_acc 0.711992	 train_class_acc 0.592694	 test_overall_acc 0.804700	 test_class_acc 0.719843	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 08:32:39,010 epoch 77 lr 9.100146e-02
+2020-09-11 09:00:45,390 train_overall_acc 0.711687	 train_class_acc 0.598324	 test_overall_acc 0.785656	 test_class_acc 0.693640	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 09:00:45,419 epoch 78 lr 9.077666e-02
+2020-09-11 09:30:07,717 train_overall_acc 0.718902	 train_class_acc 0.604736	 test_overall_acc 0.805916	 test_class_acc 0.725006	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 09:30:07,748 epoch 79 lr 9.054939e-02
+2020-09-11 10:05:39,263 train_overall_acc 0.716768	 train_class_acc 0.601621	 test_overall_acc 0.747974	 test_class_acc 0.667407	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 10:05:39,296 epoch 80 lr 9.031964e-02
+2020-09-11 10:48:24,257 train_overall_acc 0.717785	 train_class_acc 0.602470	 test_overall_acc 0.743112	 test_class_acc 0.628913	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 10:48:24,293 epoch 81 lr 9.008744e-02
+2020-09-11 11:32:03,357 train_overall_acc 0.722459	 train_class_acc 0.610788	 test_overall_acc 0.768233	 test_class_acc 0.680727	 best_test_overall_acc 0.808752	 test_class_acc_when_best 0.699477
+2020-09-11 11:32:03,399 epoch 82 lr 8.985279e-02
+2020-09-11 12:14:28,175 train_overall_acc 0.712195	 train_class_acc 0.600215	 test_overall_acc 0.833874	 test_class_acc 0.750256	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 12:14:28,212 epoch 83 lr 8.961572e-02
+2020-09-11 12:49:31,819 train_overall_acc 0.719919	 train_class_acc 0.603875	 test_overall_acc 0.777958	 test_class_acc 0.700738	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 12:49:31,864 epoch 84 lr 8.937623e-02
+2020-09-11 13:28:04,207 train_overall_acc 0.718191	 train_class_acc 0.607686	 test_overall_acc 0.766613	 test_class_acc 0.666366	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 13:28:04,237 epoch 85 lr 8.913435e-02
+2020-09-11 14:08:38,557 train_overall_acc 0.717480	 train_class_acc 0.606026	 test_overall_acc 0.796191	 test_class_acc 0.705029	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 14:08:38,590 epoch 86 lr 8.889008e-02
+2020-09-11 14:48:28,465 train_overall_acc 0.715447	 train_class_acc 0.602650	 test_overall_acc 0.793760	 test_class_acc 0.731244	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 14:48:28,498 epoch 87 lr 8.864345e-02
+2020-09-11 15:27:50,111 train_overall_acc 0.723984	 train_class_acc 0.612638	 test_overall_acc 0.822934	 test_class_acc 0.739901	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 15:27:50,140 epoch 88 lr 8.839446e-02
+2020-09-11 16:07:49,983 train_overall_acc 0.720833	 train_class_acc 0.605248	 test_overall_acc 0.771070	 test_class_acc 0.698977	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 16:07:50,012 epoch 89 lr 8.814314e-02
+2020-09-11 16:50:01,511 train_overall_acc 0.719614	 train_class_acc 0.608291	 test_overall_acc 0.825365	 test_class_acc 0.725355	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 16:50:01,553 epoch 90 lr 8.788949e-02
+2020-09-11 17:30:52,147 train_overall_acc 0.727439	 train_class_acc 0.614932	 test_overall_acc 0.813209	 test_class_acc 0.712890	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 17:30:52,176 epoch 91 lr 8.763354e-02
+2020-09-11 18:12:29,247 train_overall_acc 0.724492	 train_class_acc 0.612679	 test_overall_acc 0.801459	 test_class_acc 0.712302	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 18:12:29,287 epoch 92 lr 8.737530e-02
+2020-09-11 18:52:21,267 train_overall_acc 0.728963	 train_class_acc 0.617884	 test_overall_acc 0.803079	 test_class_acc 0.736593	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 18:52:21,299 epoch 93 lr 8.711478e-02
+2020-09-11 19:31:26,955 train_overall_acc 0.720630	 train_class_acc 0.611003	 test_overall_acc 0.823339	 test_class_acc 0.718971	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 19:31:26,989 epoch 94 lr 8.685201e-02
+2020-09-11 20:11:05,656 train_overall_acc 0.736179	 train_class_acc 0.630614	 test_overall_acc 0.796191	 test_class_acc 0.722436	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 20:11:05,696 epoch 95 lr 8.658699e-02
+2020-09-11 20:51:03,320 train_overall_acc 0.727033	 train_class_acc 0.616031	 test_overall_acc 0.788898	 test_class_acc 0.705035	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 20:51:03,358 epoch 96 lr 8.631975e-02
+2020-09-11 21:31:09,827 train_overall_acc 0.730386	 train_class_acc 0.621764	 test_overall_acc 0.805511	 test_class_acc 0.692953	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 21:31:09,861 epoch 97 lr 8.605030e-02
+2020-09-11 22:13:35,275 train_overall_acc 0.726829	 train_class_acc 0.614441	 test_overall_acc 0.806321	 test_class_acc 0.717395	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 22:13:35,320 epoch 98 lr 8.577865e-02
+2020-09-11 22:57:01,647 train_overall_acc 0.732317	 train_class_acc 0.623351	 test_overall_acc 0.799433	 test_class_acc 0.726401	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 22:57:01,702 epoch 99 lr 8.550483e-02
+2020-09-11 23:40:01,020 train_overall_acc 0.727947	 train_class_acc 0.617244	 test_overall_acc 0.773096	 test_class_acc 0.703314	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-11 23:40:01,073 epoch 100 lr 8.522885e-02
+2020-09-12 00:23:18,415 train_overall_acc 0.734350	 train_class_acc 0.623617	 test_overall_acc 0.807536	 test_class_acc 0.715698	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-12 00:23:18,448 epoch 101 lr 8.495073e-02
+2020-09-12 01:06:34,957 train_overall_acc 0.726220	 train_class_acc 0.614933	 test_overall_acc 0.795786	 test_class_acc 0.696890	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-12 01:06:34,996 epoch 102 lr 8.467048e-02
+2020-09-12 01:49:25,159 train_overall_acc 0.738415	 train_class_acc 0.622310	 test_overall_acc 0.801864	 test_class_acc 0.719855	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-12 01:49:25,204 epoch 103 lr 8.438812e-02
+2020-09-12 02:29:46,872 train_overall_acc 0.728963	 train_class_acc 0.618034	 test_overall_acc 0.761750	 test_class_acc 0.683593	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-12 02:29:46,904 epoch 104 lr 8.410368e-02
+2020-09-12 03:04:23,650 train_overall_acc 0.732215	 train_class_acc 0.624668	 test_overall_acc 0.818476	 test_class_acc 0.708924	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-12 03:04:23,682 epoch 105 lr 8.381716e-02
+2020-09-12 03:37:29,621 train_overall_acc 0.736890	 train_class_acc 0.627739	 test_overall_acc 0.794571	 test_class_acc 0.706244	 best_test_overall_acc 0.833874	 test_class_acc_when_best 0.750256
+2020-09-12 03:37:29,661 epoch 106 lr 8.352859e-02
+2020-09-12 04:14:23,097 train_overall_acc 0.725610	 train_class_acc 0.613507	 test_overall_acc 0.839951	 test_class_acc 0.749017	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 04:14:23,129 epoch 107 lr 8.323798e-02
+2020-09-12 04:52:55,282 train_overall_acc 0.728455	 train_class_acc 0.616228	 test_overall_acc 0.818476	 test_class_acc 0.722849	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 04:52:55,310 epoch 108 lr 8.294535e-02
+2020-09-12 05:32:14,336 train_overall_acc 0.731199	 train_class_acc 0.627079	 test_overall_acc 0.836305	 test_class_acc 0.728558	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 05:32:14,366 epoch 109 lr 8.265072e-02
+2020-09-12 06:11:57,596 train_overall_acc 0.741667	 train_class_acc 0.633617	 test_overall_acc 0.796191	 test_class_acc 0.737797	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 06:11:57,623 epoch 110 lr 8.235411e-02
+2020-09-12 06:51:28,434 train_overall_acc 0.743191	 train_class_acc 0.637825	 test_overall_acc 0.830632	 test_class_acc 0.734035	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 06:51:28,467 epoch 111 lr 8.205553e-02
+2020-09-12 07:31:11,871 train_overall_acc 0.736484	 train_class_acc 0.631575	 test_overall_acc 0.804700	 test_class_acc 0.695640	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 07:31:11,912 epoch 112 lr 8.175501e-02
+2020-09-12 08:11:25,806 train_overall_acc 0.736585	 train_class_acc 0.627664	 test_overall_acc 0.794165	 test_class_acc 0.717320	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 08:11:25,845 epoch 113 lr 8.145255e-02
+2020-09-12 08:51:30,454 train_overall_acc 0.743699	 train_class_acc 0.636400	 test_overall_acc 0.813614	 test_class_acc 0.736837	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 08:51:30,485 epoch 114 lr 8.114819e-02
+2020-09-12 09:31:31,436 train_overall_acc 0.737398	 train_class_acc 0.629213	 test_overall_acc 0.800648	 test_class_acc 0.732744	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 09:31:31,462 epoch 115 lr 8.084194e-02
+2020-09-12 10:12:55,584 train_overall_acc 0.739533	 train_class_acc 0.628909	 test_overall_acc 0.811994	 test_class_acc 0.710070	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 10:12:55,616 epoch 116 lr 8.053382e-02
+2020-09-12 10:55:16,010 train_overall_acc 0.742378	 train_class_acc 0.638489	 test_overall_acc 0.784846	 test_class_acc 0.731390	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 10:55:16,052 epoch 117 lr 8.022384e-02
+2020-09-12 11:47:51,246 train_overall_acc 0.739533	 train_class_acc 0.635871	 test_overall_acc 0.789708	 test_class_acc 0.707070	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 11:47:51,294 epoch 118 lr 7.991203e-02
+2020-09-12 12:31:21,082 train_overall_acc 0.740041	 train_class_acc 0.630848	 test_overall_acc 0.774311	 test_class_acc 0.682826	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 12:31:21,124 epoch 119 lr 7.959841e-02
+2020-09-12 13:12:50,756 train_overall_acc 0.740041	 train_class_acc 0.632265	 test_overall_acc 0.800243	 test_class_acc 0.724390	 best_test_overall_acc 0.839951	 test_class_acc_when_best 0.749017
+2020-09-12 13:12:50,787 epoch 120 lr 7.928299e-02
+2020-09-12 13:55:52,326 train_overall_acc 0.733028	 train_class_acc 0.621888	 test_overall_acc 0.843598	 test_class_acc 0.756913	 best_test_overall_acc 0.843598	 test_class_acc_when_best 0.756913
+2020-09-12 13:55:52,359 epoch 121 lr 7.896580e-02
+2020-09-12 14:44:36,023 train_overall_acc 0.739837	 train_class_acc 0.631621	 test_overall_acc 0.787682	 test_class_acc 0.723064	 best_test_overall_acc 0.843598	 test_class_acc_when_best 0.756913
+2020-09-12 14:44:36,059 epoch 122 lr 7.864685e-02

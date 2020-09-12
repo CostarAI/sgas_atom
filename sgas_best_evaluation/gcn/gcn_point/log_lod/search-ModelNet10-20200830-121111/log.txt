@@ -1,0 +1,8 @@
+2020-08-30 12:11:11,259 gpu device = 7
+2020-08-30 12:11:11,259 args = Namespace(arch_learning_rate=0.0003, arch_weight_decay=0.001, batch_increase=4, batch_size=16, cutout=False, cutout_length=16, data='../../data/', decision_freq=7, drop_path_prob=0.3, dropout=0.5, emb_dims=1024, gpu=7, grad_clip=5, history_size=4, in_channels=3, init_channels=32, k=9, learning_rate=0.005, learning_rate_min=0.0001, model_path='saved_models', momentum=0.9, n_steps=3, num_cells=2, num_points=1024, post_val=False, random_seed=True, report_freq=50, save='log/search-ModelNet10-20200830-121111', seed=array([503]), train_portion=0.5, unrolled=False, use_history=False, warmup_dec_epoch=9, weight_decay=0.0003)
+2020-08-30 12:12:02,205 param size = 1.638250MB
+2020-08-30 12:12:02,207 total epochs: 50
+2020-08-30 12:12:02,209 normal_selected_idxs: tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:7',
+       dtype=torch.int32)
+2020-08-30 12:12:02,210 normal_candidate_flags: tensor([True, True, True, True, True, True, True, True, True], device='cuda:7')
+2020-08-30 12:12:02,217 epoch 0 lr 5.000000e-03

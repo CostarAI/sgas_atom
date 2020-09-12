@@ -1,0 +1,209 @@
+2020-08-29 22:49:02,674 gpu device = 3
+2020-08-29 22:49:02,674 args = Namespace(arch_learning_rate=0.0003, arch_weight_decay=0.001, batch_increase=4, batch_size=12, cutout=False, cutout_length=16, data='../../data/', decision_freq=7, drop_path_prob=0.3, dropout=0.5, emb_dims=1024, gpu=3, grad_clip=5, history_size=4, in_channels=3, init_channels=32, k=9, learning_rate=0.005, learning_rate_min=0.0001, model_path='saved_models', momentum=0.9, n_steps=3, num_cells=2, num_points=1024, post_val=False, random_seed=True, report_freq=50, save='log/search-ModelNet10-20200829-224902', seed=array([34]), train_portion=0.5, unrolled=False, use_history=False, warmup_dec_epoch=9, weight_decay=0.0003)
+2020-08-29 22:49:42,591 param size = 1.638250MB
+2020-08-29 22:49:42,592 total epochs: 50
+2020-08-29 22:49:42,594 normal_selected_idxs: tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-29 22:49:42,595 normal_candidate_flags: tensor([True, True, True, True, True, True, True, True, True], device='cuda:3')
+2020-08-29 22:49:42,609 epoch 0 lr 5.000000e-03
+2020-08-29 23:02:50,152 ############################## Not a Decision Epoch ##############################
+2020-08-29 23:02:50,153 epoch 0, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-29 23:02:50,201 epoch 1 lr 4.990336e-03
+2020-08-29 23:15:47,825 ############################## Not a Decision Epoch ##############################
+2020-08-29 23:15:47,826 epoch 1, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-29 23:15:47,881 epoch 2 lr 4.966239e-03
+2020-08-29 23:28:49,210 ############################## Not a Decision Epoch ##############################
+2020-08-29 23:28:49,211 epoch 2, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-29 23:28:49,245 epoch 3 lr 4.932645e-03
+2020-08-29 23:41:45,459 ############################## Not a Decision Epoch ##############################
+2020-08-29 23:41:45,460 epoch 3, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-29 23:41:45,493 epoch 4 lr 4.889686e-03
+2020-08-29 23:54:34,387 ############################## Not a Decision Epoch ##############################
+2020-08-29 23:54:34,388 epoch 4, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-29 23:54:34,440 epoch 5 lr 4.837530e-03
+2020-08-30 00:07:46,452 ############################## Not a Decision Epoch ##############################
+2020-08-30 00:07:46,453 epoch 5, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 00:07:46,491 epoch 6 lr 4.776385e-03
+2020-08-30 00:20:43,551 ############################## Not a Decision Epoch ##############################
+2020-08-30 00:20:43,551 epoch 6, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 00:20:43,599 epoch 7 lr 4.706490e-03
+2020-08-30 00:33:44,070 ############################## Not a Decision Epoch ##############################
+2020-08-30 00:33:44,071 epoch 7, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 00:33:44,125 epoch 8 lr 4.628123e-03
+2020-08-30 00:46:51,280 ############################## Not a Decision Epoch ##############################
+2020-08-30 00:46:51,280 epoch 8, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 00:46:51,335 epoch 9 lr 4.541591e-03
+2020-08-30 00:59:39,339 ############################## Decision Epoch ##############################
+2020-08-30 00:59:39,340 epoch 9, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32), added edge 3 with op idx 1
+2020-08-30 00:59:40,192 new_batch_size = 16
+2020-08-30 00:59:40,228 epoch 10 lr 4.447236e-03
+2020-08-30 01:10:27,569 ############################## Not a Decision Epoch ##############################
+2020-08-30 01:10:27,570 epoch 10, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 01:10:27,635 epoch 11 lr 4.345431e-03
+2020-08-30 01:21:14,261 ############################## Not a Decision Epoch ##############################
+2020-08-30 01:21:14,262 epoch 11, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 01:21:14,313 epoch 12 lr 4.236577e-03
+2020-08-30 01:31:59,468 ############################## Not a Decision Epoch ##############################
+2020-08-30 01:31:59,469 epoch 12, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 01:31:59,534 epoch 13 lr 4.121104e-03
+2020-08-30 01:42:45,609 ############################## Not a Decision Epoch ##############################
+2020-08-30 01:42:45,610 epoch 13, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 01:42:45,661 epoch 14 lr 3.999467e-03
+2020-08-30 01:53:30,294 ############################## Not a Decision Epoch ##############################
+2020-08-30 01:53:30,295 epoch 14, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 01:53:30,360 epoch 15 lr 3.872146e-03
+2020-08-30 02:04:26,980 ############################## Not a Decision Epoch ##############################
+2020-08-30 02:04:26,981 epoch 15, normal_selected_idxs tensor([-1, -1, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 02:04:27,048 epoch 16 lr 3.739643e-03
+2020-08-30 02:15:09,724 ############################## Decision Epoch ##############################
+2020-08-30 02:15:09,725 epoch 16, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32), added edge 1 with op idx 3
+2020-08-30 02:15:11,499 new_batch_size = 20
+2020-08-30 02:15:11,556 epoch 17 lr 3.602482e-03
+2020-08-30 02:25:06,006 ############################## Not a Decision Epoch ##############################
+2020-08-30 02:25:06,006 epoch 17, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 02:25:06,058 epoch 18 lr 3.461202e-03
+2020-08-30 02:34:41,167 ############################## Not a Decision Epoch ##############################
+2020-08-30 02:34:41,168 epoch 18, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 02:34:41,225 epoch 19 lr 3.316363e-03
+2020-08-30 02:44:23,901 ############################## Not a Decision Epoch ##############################
+2020-08-30 02:44:23,909 epoch 19, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 02:44:23,983 epoch 20 lr 3.168535e-03
+2020-08-30 02:54:03,284 ############################## Not a Decision Epoch ##############################
+2020-08-30 02:54:03,284 epoch 20, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 02:54:03,360 epoch 21 lr 3.018300e-03
+2020-08-30 03:03:40,208 ############################## Not a Decision Epoch ##############################
+2020-08-30 03:03:40,209 epoch 21, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 03:03:40,272 epoch 22 lr 2.866253e-03
+2020-08-30 03:13:17,402 ############################## Not a Decision Epoch ##############################
+2020-08-30 03:13:17,403 epoch 22, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1, -1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 03:13:17,459 epoch 23 lr 2.712993e-03
+2020-08-30 03:22:45,791 ############################## Decision Epoch ##############################
+2020-08-30 03:22:45,792 epoch 23, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32), added edge 6 with op idx 1
+2020-08-30 03:22:47,345 new_batch_size = 24
+2020-08-30 03:22:47,427 epoch 24 lr 2.559123e-03
+2020-08-30 03:31:07,595 ############################## Not a Decision Epoch ##############################
+2020-08-30 03:31:07,595 epoch 24, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 03:31:07,658 epoch 25 lr 2.405252e-03
+2020-08-30 03:39:36,634 ############################## Not a Decision Epoch ##############################
+2020-08-30 03:39:36,635 epoch 25, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 03:39:36,687 epoch 26 lr 2.251986e-03
+2020-08-30 03:47:56,181 ############################## Not a Decision Epoch ##############################
+2020-08-30 03:47:56,182 epoch 26, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 03:47:56,233 epoch 27 lr 2.099929e-03
+2020-08-30 03:56:15,732 ############################## Not a Decision Epoch ##############################
+2020-08-30 03:56:15,733 epoch 27, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 03:56:15,799 epoch 28 lr 1.949682e-03
+2020-08-30 04:04:30,804 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:04:30,804 epoch 28, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:04:30,859 epoch 29 lr 1.801836e-03
+2020-08-30 04:12:53,110 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:12:53,111 epoch 29, normal_selected_idxs tensor([-1,  3, -1,  1, -1, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:12:53,165 epoch 30 lr 1.656975e-03
+2020-08-30 04:21:11,637 ############################## Decision Epoch ##############################
+2020-08-30 04:21:11,638 epoch 30, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32), added edge 4 with op idx 2
+2020-08-30 04:21:12,799 new_batch_size = 28
+2020-08-30 04:21:12,860 epoch 31 lr 1.515669e-03
+2020-08-30 04:27:58,984 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:27:58,985 epoch 31, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:27:59,060 epoch 32 lr 1.378475e-03
+2020-08-30 04:34:36,251 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:34:36,252 epoch 32, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:34:36,322 epoch 33 lr 1.245934e-03
+2020-08-30 04:41:11,980 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:41:11,980 epoch 33, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:41:12,047 epoch 34 lr 1.118568e-03
+2020-08-30 04:47:54,603 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:47:54,603 epoch 34, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:47:54,654 epoch 35 lr 9.968774e-04
+2020-08-30 04:54:35,204 ############################## Not a Decision Epoch ##############################
+2020-08-30 04:54:35,206 epoch 35, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 04:54:35,259 epoch 36 lr 8.813411e-04
+2020-08-30 05:01:11,118 ############################## Not a Decision Epoch ##############################
+2020-08-30 05:01:11,119 epoch 36, normal_selected_idxs tensor([-1,  3,  0,  1,  2, -1,  1, -1, -1], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 05:01:11,166 epoch 37 lr 7.724129e-04
+2020-08-30 05:07:53,479 ############################## Decision Epoch ##############################
+2020-08-30 05:07:53,480 epoch 37, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32), added edge 7 with op idx 2
+2020-08-30 05:07:54,257 new_batch_size = 32
+2020-08-30 05:07:54,307 epoch 38 lr 6.705198e-04
+2020-08-30 05:17:43,622 ############################## Not a Decision Epoch ##############################
+2020-08-30 05:17:43,623 epoch 38, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 05:17:43,673 epoch 39 lr 5.760601e-04
+2020-08-30 05:27:36,629 ############################## Not a Decision Epoch ##############################
+2020-08-30 05:27:36,630 epoch 39, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 05:27:36,689 epoch 40 lr 4.894018e-04
+2020-08-30 05:37:25,918 ############################## Not a Decision Epoch ##############################
+2020-08-30 05:37:25,919 epoch 40, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 05:37:25,998 epoch 41 lr 4.108800e-04
+2020-08-30 05:46:38,629 ############################## Not a Decision Epoch ##############################
+2020-08-30 05:46:38,630 epoch 41, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 05:46:38,700 epoch 42 lr 3.407952e-04
+2020-08-30 05:55:52,403 ############################## Not a Decision Epoch ##############################
+2020-08-30 05:55:52,403 epoch 42, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 05:55:52,455 epoch 43 lr 2.794101e-04
+2020-08-30 06:04:47,222 ############################## Not a Decision Epoch ##############################
+2020-08-30 06:04:47,222 epoch 43, normal_selected_idxs tensor([-1,  3,  0,  1,  2,  0,  1,  2,  0], device='cuda:3',
+       dtype=torch.int32)
+2020-08-30 06:04:47,272 epoch 44 lr 2.269456e-04
+2020-08-30 06:13:49,652 ############################## Decision Epoch ##############################
+2020-08-30 06:13:49,653 epoch 44, normal_selected_idxs tensor([1, 3, 0, 1, 2, 0, 1, 2, 0], device='cuda:3', dtype=torch.int32), added edge 0 with op idx 1
+2020-08-30 06:13:49,967 new_batch_size = 36
+2020-08-30 06:13:50,037 epoch 45 lr 1.835744e-04
+2020-08-30 06:19:31,316 ############################## Not a Decision Epoch ##############################
+2020-08-30 06:19:31,316 epoch 45, normal_selected_idxs tensor([1, 3, 0, 1, 2, 0, 1, 2, 0], device='cuda:3', dtype=torch.int32)
+2020-08-30 06:19:31,387 epoch 46 lr 1.494079e-04
+2020-08-30 06:24:57,796 ############################## Not a Decision Epoch ##############################
+2020-08-30 06:24:57,797 epoch 46, normal_selected_idxs tensor([1, 3, 0, 1, 2, 0, 1, 2, 0], device='cuda:3', dtype=torch.int32)
+2020-08-30 06:24:57,846 epoch 47 lr 1.244667e-04
+2020-08-30 06:29:58,719 ############################## Not a Decision Epoch ##############################
+2020-08-30 06:29:58,719 epoch 47, normal_selected_idxs tensor([1, 3, 0, 1, 2, 0, 1, 2, 0], device='cuda:3', dtype=torch.int32)
+2020-08-30 06:29:58,766 epoch 48 lr 1.086004e-04
+2020-08-30 06:35:00,295 ############################## Not a Decision Epoch ##############################
+2020-08-30 06:35:00,296 epoch 48, normal_selected_idxs tensor([1, 3, 0, 1, 2, 0, 1, 2, 0], device='cuda:3', dtype=torch.int32)
+2020-08-30 06:35:00,361 epoch 49 lr 1.012098e-04
+2020-08-30 06:40:02,921 ############################## Not a Decision Epoch ##############################
+2020-08-30 06:40:02,922 epoch 49, normal_selected_idxs tensor([1, 3, 0, 1, 2, 0, 1, 2, 0], device='cuda:3', dtype=torch.int32)
+2020-08-30 06:40:02,972 ############################## Done ##############################
+2020-08-30 06:40:02,973 genotype = Genotype(normal=[('skip_connect', 0), ('Conv1', 1), ('skip_connect', 1), ('conv_1x1', 2), ('skip_connect', 1), ('conv_1x1', 2)], normal_concat=range(1, 5))

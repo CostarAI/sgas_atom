@@ -1,0 +1,59 @@
+2020-08-27 14:28:37,380 gpu device = 0
+2020-08-27 14:28:37,380 args = Namespace(arch_learning_rate=0.0003, arch_weight_decay=0.001, batch_increase=4, batch_size=16, cutout=False, cutout_length=16, data='../../data/', decision_freq=7, drop_path_prob=0.3, dropout=0.5, emb_dims=1024, gpu=0, grad_clip=5, history_size=4, in_channels=3, init_channels=32, k=9, learning_rate=0.005, learning_rate_min=0.0001, model_path='saved_models', momentum=0.9, n_steps=3, num_cells=2, num_points=1024, post_val=False, random_seed=True, report_freq=50, save='log/search-ModelNet10-20200827-142837', seed=array([98]), train_portion=0.5, unrolled=False, use_history=False, warmup_dec_epoch=9, weight_decay=0.0003)
+2020-08-27 14:29:21,375 param size = 1.638265MB
+2020-08-27 14:29:21,377 total epochs: 50
+2020-08-27 14:29:21,381 normal_selected_idxs: tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 14:29:21,381 normal_candidate_flags: tensor([True, True, True, True, True, True, True, True, True], device='cuda:0')
+2020-08-27 14:29:21,393 epoch 0 lr 5.000000e-03
+2020-08-27 14:49:49,733 train_acc 0.698071	valid_overall_acc 0.770925 	 valid_class_acc 0.727163
+2020-08-27 14:49:49,739 ############################## Not a Decision Epoch ##############################
+2020-08-27 14:49:49,740 epoch 0, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 14:49:49,794 epoch 1 lr 4.990336e-03
+2020-08-27 15:12:33,999 train_acc 0.821097	valid_overall_acc 0.823789 	 valid_class_acc 0.811860
+2020-08-27 15:12:34,006 ############################## Not a Decision Epoch ##############################
+2020-08-27 15:12:34,007 epoch 1, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 15:12:34,049 epoch 2 lr 4.966239e-03
+2020-08-27 15:36:36,319 train_acc 0.848910	valid_overall_acc 0.807269 	 valid_class_acc 0.787814
+2020-08-27 15:36:36,325 ############################## Not a Decision Epoch ##############################
+2020-08-27 15:36:36,326 epoch 2, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 15:36:36,411 epoch 3 lr 4.932645e-03
+2020-08-27 16:01:03,411 train_acc 0.864946	valid_overall_acc 0.827093 	 valid_class_acc 0.815070
+2020-08-27 16:01:03,418 ############################## Not a Decision Epoch ##############################
+2020-08-27 16:01:03,419 epoch 3, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 16:01:03,489 epoch 4 lr 4.889686e-03
+2020-08-27 16:26:08,901 train_acc 0.876221	valid_overall_acc 0.859031 	 valid_class_acc 0.843349
+2020-08-27 16:26:08,907 ############################## Not a Decision Epoch ##############################
+2020-08-27 16:26:08,908 epoch 4, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 16:26:08,997 epoch 5 lr 4.837530e-03
+2020-08-27 16:51:19,405 train_acc 0.882486	valid_overall_acc 0.861233 	 valid_class_acc 0.844512
+2020-08-27 16:51:19,411 ############################## Not a Decision Epoch ##############################
+2020-08-27 16:51:19,412 epoch 5, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 16:51:19,508 epoch 6 lr 4.776385e-03
+2020-08-27 17:16:14,035 train_acc 0.887998	valid_overall_acc 0.885463 	 valid_class_acc 0.872930
+2020-08-27 17:16:14,051 ############################## Not a Decision Epoch ##############################
+2020-08-27 17:16:14,058 epoch 6, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 17:16:14,142 epoch 7 lr 4.706490e-03
+2020-08-27 17:41:19,920 train_acc 0.901528	valid_overall_acc 0.886564 	 valid_class_acc 0.870256
+2020-08-27 17:41:19,926 ############################## Not a Decision Epoch ##############################
+2020-08-27 17:41:19,927 epoch 7, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 17:41:19,981 epoch 8 lr 4.628123e-03
+2020-08-27 18:05:27,152 train_acc 0.901779	valid_overall_acc 0.867841 	 valid_class_acc 0.851605
+2020-08-27 18:05:27,158 ############################## Not a Decision Epoch ##############################
+2020-08-27 18:05:27,159 epoch 8, normal_selected_idxs tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32)
+2020-08-27 18:05:27,208 epoch 9 lr 4.541591e-03
+2020-08-27 18:29:42,848 train_acc 0.900276	valid_overall_acc 0.862335 	 valid_class_acc 0.851000
+2020-08-27 18:29:42,858 ############################## Decision Epoch ##############################
+2020-08-27 18:29:42,859 epoch 9, normal_selected_idxs tensor([-1, -1, -1,  2, -1, -1, -1, -1, -1], device='cuda:0',
+       dtype=torch.int32), added edge 3 with op idx 2
+2020-08-27 18:29:44,423 new_batch_size = 20
+2020-08-27 18:29:44,472 epoch 10 lr 4.447236e-03

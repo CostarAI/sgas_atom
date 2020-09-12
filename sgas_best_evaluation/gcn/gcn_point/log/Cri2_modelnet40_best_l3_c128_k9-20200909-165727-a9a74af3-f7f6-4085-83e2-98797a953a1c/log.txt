@@ -1,0 +1,6 @@
+2020-09-09 16:57:27,988 gpu device = 3
+2020-09-09 16:57:27,988 args = Namespace(arch='Cri2_ModelNet_Atom_Best', auxiliary=False, auxiliary_weight=0.4, batch_size=32, cutout=False, data='../../../sgas/data/', data_augment=True, drop_path_prob=0.2, dropout=0.5, emb_dims=1024, epochs=400, gpu=3, grad_clip=5, hyper_search=False, in_channels=3, init_channels=128, k=9, learning_rate=0.001, model_path='saved_models', momentum=0.9, num_cells=3, num_points=1024, phase='train', report_freq=20, save='log/Cri2_modelnet40_best_l3_c128_k9-20200909-165727-a9a74af3-f7f6-4085-83e2-98797a953a1c', seed=4, use_sgd=True, weight_decay=0.0001)
+2020-09-09 16:57:43,395 n_classes: 40
+2020-09-09 16:57:56,793 param size = 3.902632MB
+2020-09-09 16:57:56,796 phase is train
+2020-09-09 16:57:56,796 epoch 0 lr 1.000000e-01

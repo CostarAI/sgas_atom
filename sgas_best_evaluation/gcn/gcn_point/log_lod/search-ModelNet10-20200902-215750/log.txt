@@ -1,0 +1,19 @@
+2020-09-02 21:57:50,751 gpu device = 5
+2020-09-02 21:57:50,752 args = Namespace(arch_learning_rate=0.0003, arch_weight_decay=0.001, batch_increase=4, batch_size=16, cutout=False, cutout_length=16, data='../../data/', decision_freq=7, drop_path_prob=0.3, dropout=0.5, emb_dims=1024, gpu=5, grad_clip=5, history_size=4, in_channels=3, init_channels=32, k=9, learning_rate=0.005, learning_rate_min=0.0001, model_path='saved_models', momentum=0.9, n_steps=3, num_cells=2, num_points=1024, post_val=False, random_seed=True, report_freq=50, save='log/search-ModelNet10-20200902-215750', seed=array([625]), train_portion=0.5, unrolled=False, use_history=False, warmup_dec_epoch=9, weight_decay=0.0003)
+2020-09-02 21:58:32,088 param size = 1.638250MB
+2020-09-02 21:58:32,090 total epochs: 50
+2020-09-02 21:58:32,092 normal_selected_idxs: tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1, -1], device='cuda:5',
+       dtype=torch.int32)
+2020-09-02 21:58:32,093 normal_candidate_flags: tensor([True, True, True, True, True, True, True, True, True, True],
+       device='cuda:5')
+2020-09-02 21:58:32,110 epoch 0 lr 5.000000e-03
+2020-09-02 22:10:21,129 train_acc 0.718867	valid_overall_acc 0.774229 	 valid_class_acc 0.752767
+2020-09-02 22:10:21,130 beta [[0.2003818  0.1998048  0.20000216 0.19978498 0.20002627]
+ [0.20003287 0.19995575 0.19971651 0.20015542 0.20013943]
+ [0.20030189 0.20019877 0.19977704 0.19988257 0.19983973]]
+2020-09-02 22:10:21,132 att [[ 9.2338081e-03  1.2179980e-02 -8.9507261e-03  7.6529744e-07
+  -1.7514953e-03]
+ [ 1.9444156e-03  1.0411877e-03  3.6592514e-04 -3.1403324e-04
+   1.6075475e-03]
+ [-8.0770843e-41 -5.2508055e-41 -1.5750595e-42 -6.4751260e-18
+  -7.8813947e-04]]
